@@ -61,10 +61,8 @@
 .grid {
   display: grid;
   grid-template-columns: 20% 20% 20% 20%;
-  grid-auto-rows: 20%;
   justify-content: center;
-  margin-top: 100px;
-  row-gap: 30%;
+  margin-top: 50px;
   align-items: center;
 }
 
@@ -77,7 +75,7 @@
   grid-row: 1;
   text-decoration: none;
   color: black;
-  font-size: 35px;
+  font-size: 3vw;
   padding: 15px;
   justify-self: start;
   border-radius: 10px;
@@ -92,7 +90,7 @@
   grid-row: 1;
   text-decoration: none;
   color: black;
-  font-size: 35px;
+  font-size: 3vw;
   padding: 15px;
   justify-self: start;
 }
@@ -102,7 +100,7 @@
   grid-row: 2;
   text-decoration: none;
   color: black;
-  font-size: 35px;
+  font-size: 3vw;
   padding: 15px;
   border-radius: 10px;
   justify-self: start;
@@ -117,7 +115,7 @@
   grid-row: 2;
   text-decoration: none;
   color: black;
-  font-size: 35px;
+  font-size: 3vw;
   padding: 15px;
   justify-self: start;
   border-radius: 10px;
