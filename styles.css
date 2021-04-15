@@ -1,5 +1,6 @@
 .homepage {
   margin: 0px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .top {
@@ -27,15 +28,18 @@
 }
 
 #info .name {
-  font-size: 3vw;
+  font-size: 5vw;
+  margin-bottom: 0px;
 }
 
 #info .role {
-  font-size: 3vw;
+  font-size: 2vw;
+  margin-left: 2%;
 }
 
 #info .school {
-  font-size: 3vw;
+  font-size: 2vw;
+  margin-left: 2%;
 }
 
 .QR {
