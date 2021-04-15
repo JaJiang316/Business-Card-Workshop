@@ -1,0 +1,125 @@
+.homepage {
+  margin: 0px;
+}
+
+.top {
+  background-image: url("images/images.jpg");
+  background-size: cover;
+  width: 100%;
+  display: flex;
+}
+
+.photo {
+  width: 50%;
+}
+
+.photo img {
+  width: 50%;
+  margin: 50px;
+}
+
+.top #info {
+  margin-top: 2%;
+  color: white;
+  flex-grow: 1;
+  width: 50rem;
+  text-align: center;
+}
+
+#info .name {
+  font-size: 80px;
+}
+
+#info .role {
+  font-size: 35px;
+}
+
+#info .school {
+  font-size: 35px;
+}
+
+.QR {
+  width: 60%;
+  flex-grow: 1;
+}
+
+.QR img {
+  width: 20%;
+  border: 20px solid white;
+  float: right;
+}
+
+.intro p {
+  font-size: 35px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 20% 20%;
+  justify-content: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  font-size: 30px;
+  align-items: center;
+}
+
+.grid img {
+  width: 40%;
+}
+
+.resume {
+  grid-column: 2;
+  grid-row: 1;
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+  padding: 15px;
+  justify-self: start;
+  border-radius: 10px;
+}
+
+.resume:hover {
+  background-color: whitesmoke;
+}
+
+.email {
+  grid-column: 4;
+  grid-row: 1;
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+  padding: 15px;
+  justify-self: start;
+}
+
+.github {
+  grid-column: 4;
+  grid-row: 2;
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+  padding: 15px;
+  border-radius: 10px;
+  justify-self: start;
+}
+
+.github:hover {
+  background-color: whitesmoke;
+}
+
+.linkedin {
+  grid-column: 2;
+  grid-row: 2;
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+  padding: 15px;
+  justify-self: start;
+  border-radius: 10px;
+}
+
+.linkedin:hover {
+  background-color: whitesmoke;
+}
