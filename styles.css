@@ -1,126 +1,29 @@
-.homepage {
-  margin: 0px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+.vertical {
+  border-left: 1px solid grey;
+  height: 55px;
+  position:absolute;
+  left: 5%;
 }
 
-.top {
-  background-image: url("images/images.jpg");
-  background-size: cover;
-  width: 100%;
-  display: flex;
+.name {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
 }
 
-.photo {
-  width: 50%;
+.bio {
+  padding-left:5%;
+  padding-top: 3%;
+  padding-right: 5%
 }
 
-.photo img {
-  width: 50%;
-  margin: 50px;
+
+.links {
+  padding-left:5%;
+  padding-right: 5%
 }
 
-.top #info {
-  color: white;
-  position: absolute;
-  width: 100%;
-  margin-top: 50px;
-  left: 45%;
-}
 
-#info .name {
-  font-size: 5vw;
-  margin-bottom: 0px;
-}
-
-#info .role {
-  font-size: 2vw;
-  margin-left: 2%;
-}
-
-#info .school {
-  font-size: 2vw;
-  margin-left: 2%;
-}
-
-.QR {
-  width: 60%;
-  flex-grow: 1;
-}
-
-.QR img {
-  width: 20%;
-  border: 20px solid white;
-  float: right;
-}
-
-.intro p {
-  font-size: 35px;
-  text-align: center;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20%;
-  justify-content: center;
-  margin-top: 50px;
-  align-items: center;
-}
-
-.grid img {
-  width: 40%;
-}
-
-.resume {
-  grid-column: 2;
-  grid-row: 1;
-  text-decoration: none;
-  color: black;
-  font-size: 3vw;
-  padding: 15px;
-  justify-self: start;
-  border-radius: 10px;
-}
-
-.resume:hover {
-  background-color: whitesmoke;
-}
-
-.email {
-  grid-column: 4;
-  grid-row: 1;
-  text-decoration: none;
-  color: black;
-  font-size: 3vw;
-  padding: 15px;
-  justify-self: start;
-}
-
-.github {
-  grid-column: 4;
-  grid-row: 2;
-  text-decoration: none;
-  color: black;
-  font-size: 3vw;
-  padding: 15px;
-  border-radius: 10px;
-  justify-self: start;
-}
-
-.github:hover {
-  background-color: whitesmoke;
-}
-
-.linkedin {
-  grid-column: 2;
-  grid-row: 2;
-  text-decoration: none;
-  color: black;
-  font-size: 3vw;
-  padding: 15px;
-  justify-self: start;
-  border-radius: 10px;
-}
-
-.linkedin:hover {
-  background-color: whitesmoke;
-}
+.btn-label {position: relative;left: -12px;display: inline-block;padding: 6px 12px;background: rgba(0,0,0,0.15);border-radius: 3px 0 0 3px;}
+.btn-labeled {padding-top: 0;padding-bottom: 0;}
+.btn { margin-bottom:10px; }
